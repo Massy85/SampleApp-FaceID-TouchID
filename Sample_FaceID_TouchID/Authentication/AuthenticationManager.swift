@@ -22,7 +22,7 @@ class AuthenticationManager {
     func requestAccess(completion: @escaping ((AuthResult) -> Void)) {
         if context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &error) {
             let reason = "Identify yourself"
-            context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: reason) { [weak self] success, authError in
+            context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: reason) { success, authError in
                 
                 DispatchQueue.main.async {
                     if success {
