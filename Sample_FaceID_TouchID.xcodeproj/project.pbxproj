@@ -9,26 +9,20 @@
 /* Begin PBXBuildFile section */
 		701AE393273D781300DBC4B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701AE392273D781300DBC4B8 /* AppDelegate.swift */; };
 		701AE395273D781300DBC4B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701AE394273D781300DBC4B8 /* SceneDelegate.swift */; };
-		701AE397273D781300DBC4B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701AE396273D781300DBC4B8 /* ViewController.swift */; };
+		701AE397273D781300DBC4B8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701AE396273D781300DBC4B8 /* LoginViewController.swift */; };
 		701AE39A273D781300DBC4B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701AE398273D781300DBC4B8 /* Main.storyboard */; };
 		701AE39C273D781400DBC4B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 701AE39B273D781400DBC4B8 /* Assets.xcassets */; };
 		701AE39F273D781400DBC4B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701AE39D273D781400DBC4B8 /* LaunchScreen.storyboard */; };
-		701AE3AA273D781400DBC4B8 /* Sample_FaceID_TouchIDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701AE3A9273D781400DBC4B8 /* Sample_FaceID_TouchIDTests.swift */; };
-		701AE3B4273D781400DBC4B8 /* Sample_FaceID_TouchIDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701AE3B3273D781400DBC4B8 /* Sample_FaceID_TouchIDUITests.swift */; };
-		701AE3B6273D781400DBC4B8 /* Sample_FaceID_TouchIDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701AE3B5273D781400DBC4B8 /* Sample_FaceID_TouchIDUITestsLaunchTests.swift */; };
 		701AE3C3273D7C8A00DBC4B8 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701AE3C2273D7C8A00DBC4B8 /* DashboardViewController.swift */; };
+		709213BC274D32F700384EF0 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709213BB274D32F700384EF0 /* KeychainManager.swift */; };
 		7092D46A273D90C300B2CC79 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7092D469273D90C300B2CC79 /* AuthenticationManager.swift */; };
+		709E6853274E31270060D513 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709E6852274E31270060D513 /* RegistrationViewController.swift */; };
+		709E6855274E428F0060D513 /* KeychainManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709E6854274E428F0060D513 /* KeychainManagerTest.swift */; };
+		709E6857274E42B90060D513 /* KeychainManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709E6856274E42B90060D513 /* KeychainManagerMock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		701AE3A6273D781400DBC4B8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 701AE387273D781300DBC4B8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 701AE38E273D781300DBC4B8;
-			remoteInfo = Sample_FaceID_TouchID;
-		};
-		701AE3B0273D781400DBC4B8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 701AE387273D781300DBC4B8 /* Project object */;
 			proxyType = 1;
@@ -41,18 +35,18 @@
 		701AE38F273D781300DBC4B8 /* Sample_FaceID_TouchID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample_FaceID_TouchID.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		701AE392273D781300DBC4B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		701AE394273D781300DBC4B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		701AE396273D781300DBC4B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		701AE396273D781300DBC4B8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		701AE399273D781300DBC4B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		701AE39B273D781400DBC4B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		701AE39E273D781400DBC4B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		701AE3A0273D781400DBC4B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		701AE3A5273D781400DBC4B8 /* Sample_FaceID_TouchIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sample_FaceID_TouchIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		701AE3A9273D781400DBC4B8 /* Sample_FaceID_TouchIDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_FaceID_TouchIDTests.swift; sourceTree = "<group>"; };
-		701AE3AF273D781400DBC4B8 /* Sample_FaceID_TouchIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sample_FaceID_TouchIDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		701AE3B3273D781400DBC4B8 /* Sample_FaceID_TouchIDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_FaceID_TouchIDUITests.swift; sourceTree = "<group>"; };
-		701AE3B5273D781400DBC4B8 /* Sample_FaceID_TouchIDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_FaceID_TouchIDUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		701AE3C2273D7C8A00DBC4B8 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		709213BB274D32F700384EF0 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
 		7092D469273D90C300B2CC79 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		709E6852274E31270060D513 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		709E6854274E428F0060D513 /* KeychainManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManagerTest.swift; sourceTree = "<group>"; };
+		709E6856274E42B90060D513 /* KeychainManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManagerMock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,13 +64,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		701AE3AC273D781400DBC4B8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -85,7 +72,6 @@
 			children = (
 				701AE391273D781300DBC4B8 /* Sample_FaceID_TouchID */,
 				701AE3A8273D781400DBC4B8 /* Sample_FaceID_TouchIDTests */,
-				701AE3B2273D781400DBC4B8 /* Sample_FaceID_TouchIDUITests */,
 				701AE390273D781300DBC4B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,7 +81,6 @@
 			children = (
 				701AE38F273D781300DBC4B8 /* Sample_FaceID_TouchID.app */,
 				701AE3A5273D781400DBC4B8 /* Sample_FaceID_TouchIDTests.xctest */,
-				701AE3AF273D781400DBC4B8 /* Sample_FaceID_TouchIDUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,24 +103,17 @@
 		701AE3A8273D781400DBC4B8 /* Sample_FaceID_TouchIDTests */ = {
 			isa = PBXGroup;
 			children = (
-				701AE3A9273D781400DBC4B8 /* Sample_FaceID_TouchIDTests.swift */,
+				709E6854274E428F0060D513 /* KeychainManagerTest.swift */,
+				709E6856274E42B90060D513 /* KeychainManagerMock.swift */,
 			);
 			path = Sample_FaceID_TouchIDTests;
-			sourceTree = "<group>";
-		};
-		701AE3B2273D781400DBC4B8 /* Sample_FaceID_TouchIDUITests */ = {
-			isa = PBXGroup;
-			children = (
-				701AE3B3273D781400DBC4B8 /* Sample_FaceID_TouchIDUITests.swift */,
-				701AE3B5273D781400DBC4B8 /* Sample_FaceID_TouchIDUITestsLaunchTests.swift */,
-			);
-			path = Sample_FaceID_TouchIDUITests;
 			sourceTree = "<group>";
 		};
 		7092D467273D909400B2CC79 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
 				7092D469273D90C300B2CC79 /* AuthenticationManager.swift */,
+				709213BB274D32F700384EF0 /* KeychainManager.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -143,8 +121,9 @@
 		7092D468273D90A800B2CC79 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				701AE396273D781300DBC4B8 /* ViewController.swift */,
+				701AE396273D781300DBC4B8 /* LoginViewController.swift */,
 				701AE3C2273D7C8A00DBC4B8 /* DashboardViewController.swift */,
+				709E6852274E31270060D513 /* RegistrationViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -187,24 +166,6 @@
 			productReference = 701AE3A5273D781400DBC4B8 /* Sample_FaceID_TouchIDTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		701AE3AE273D781400DBC4B8 /* Sample_FaceID_TouchIDUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 701AE3BF273D781400DBC4B8 /* Build configuration list for PBXNativeTarget "Sample_FaceID_TouchIDUITests" */;
-			buildPhases = (
-				701AE3AB273D781400DBC4B8 /* Sources */,
-				701AE3AC273D781400DBC4B8 /* Frameworks */,
-				701AE3AD273D781400DBC4B8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				701AE3B1273D781400DBC4B8 /* PBXTargetDependency */,
-			);
-			name = Sample_FaceID_TouchIDUITests;
-			productName = Sample_FaceID_TouchIDUITests;
-			productReference = 701AE3AF273D781400DBC4B8 /* Sample_FaceID_TouchIDUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -220,10 +181,7 @@
 					};
 					701AE3A4273D781400DBC4B8 = {
 						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 701AE38E273D781300DBC4B8;
-					};
-					701AE3AE273D781400DBC4B8 = {
-						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 						TestTargetID = 701AE38E273D781300DBC4B8;
 					};
 				};
@@ -243,7 +201,6 @@
 			targets = (
 				701AE38E273D781300DBC4B8 /* Sample_FaceID_TouchID */,
 				701AE3A4273D781400DBC4B8 /* Sample_FaceID_TouchIDTests */,
-				701AE3AE273D781400DBC4B8 /* Sample_FaceID_TouchIDUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -266,13 +223,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		701AE3AD273D781400DBC4B8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -280,9 +230,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				701AE397273D781300DBC4B8 /* ViewController.swift in Sources */,
+				701AE397273D781300DBC4B8 /* LoginViewController.swift in Sources */,
+				709213BC274D32F700384EF0 /* KeychainManager.swift in Sources */,
 				701AE393273D781300DBC4B8 /* AppDelegate.swift in Sources */,
 				701AE395273D781300DBC4B8 /* SceneDelegate.swift in Sources */,
+				709E6853274E31270060D513 /* RegistrationViewController.swift in Sources */,
 				7092D46A273D90C300B2CC79 /* AuthenticationManager.swift in Sources */,
 				701AE3C3273D7C8A00DBC4B8 /* DashboardViewController.swift in Sources */,
 			);
@@ -292,16 +244,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				701AE3AA273D781400DBC4B8 /* Sample_FaceID_TouchIDTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		701AE3AB273D781400DBC4B8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				701AE3B4273D781400DBC4B8 /* Sample_FaceID_TouchIDUITests.swift in Sources */,
-				701AE3B6273D781400DBC4B8 /* Sample_FaceID_TouchIDUITestsLaunchTests.swift in Sources */,
+				709E6855274E428F0060D513 /* KeychainManagerTest.swift in Sources */,
+				709E6857274E42B90060D513 /* KeychainManagerMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,11 +256,6 @@
 			isa = PBXTargetDependency;
 			target = 701AE38E273D781300DBC4B8 /* Sample_FaceID_TouchID */;
 			targetProxy = 701AE3A6273D781400DBC4B8 /* PBXContainerItemProxy */;
-		};
-		701AE3B1273D781400DBC4B8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 701AE38E273D781300DBC4B8 /* Sample_FaceID_TouchID */;
-			targetProxy = 701AE3B0273D781400DBC4B8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -461,14 +400,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 78FFNVHXM9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Sample_FaceID_TouchID/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Identify yourself";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -477,8 +417,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.UrmetSecure.Sample-FaceID-TouchID";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sample-FaceID-TouchID";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -490,14 +431,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 78FFNVHXM9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Sample_FaceID_TouchID/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Identify yourself";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -506,8 +448,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.UrmetSecure.Sample-FaceID-TouchID";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sample-FaceID-TouchID";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -519,9 +462,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H7TERFXEST;
+				DEVELOPMENT_TEAM = 78FFNVHXM9;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -533,6 +477,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.UrmetSecure.Sample-FaceID-TouchIDTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sample_FaceID_TouchID.app/Sample_FaceID_TouchID";
@@ -544,9 +489,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H7TERFXEST;
+				DEVELOPMENT_TEAM = 78FFNVHXM9;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -561,52 +507,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sample_FaceID_TouchID.app/Sample_FaceID_TouchID";
-			};
-			name = Release;
-		};
-		701AE3C0273D781400DBC4B8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H7TERFXEST;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.UrmetSecure.Sample-FaceID-TouchIDUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Sample_FaceID_TouchID;
-			};
-			name = Debug;
-		};
-		701AE3C1273D781400DBC4B8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H7TERFXEST;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.UrmetSecure.Sample-FaceID-TouchIDUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Sample_FaceID_TouchID;
 			};
 			name = Release;
 		};
@@ -636,15 +536,6 @@
 			buildConfigurations = (
 				701AE3BD273D781400DBC4B8 /* Debug */,
 				701AE3BE273D781400DBC4B8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		701AE3BF273D781400DBC4B8 /* Build configuration list for PBXNativeTarget "Sample_FaceID_TouchIDUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				701AE3C0273D781400DBC4B8 /* Debug */,
-				701AE3C1273D781400DBC4B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

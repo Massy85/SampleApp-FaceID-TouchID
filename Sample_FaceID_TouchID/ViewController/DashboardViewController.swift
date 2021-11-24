@@ -9,9 +9,22 @@ import UIKit
 
 class DashboardViewController: UIViewController {
 
+    // MARK: - Properties
+
+    var keychainManager: KeychainManager<User> = KeychainManager()
+    
+    // MARK: - Lifecycle
+
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .orange
+        do {
+            try keychainManager.retrive { user in
+                self.title = "\(user.username) - \(user.password)"
+            }
+        } catch {
+            print(error)
+        }
         // Do any additional setup after loading the view.
     }
     
